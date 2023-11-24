@@ -1,0 +1,9 @@
+<nav>
+  <a class="{{ navHome.class }}" routerLink="{{ navHome.path }}"
+    ><img src="{{ homeImg.src }}" alt="{{ homeImg.alt }}"
+  /></a>
+  <a *ngFor="let link of navLinks" routerLink="{{ link.path }}">{{
+    link.name
+  }}</a>
+  <app-socials class="{{ socialsClass }}"></app-socials>
+</nav>

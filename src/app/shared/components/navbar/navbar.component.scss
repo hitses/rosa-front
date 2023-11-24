@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin: 0 10px;
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "oxygen-regular";
+    color: var(--lila);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    img {
+      height: 40px;
+    }
+  }
+  a:hover {
+    text-decoration: underline;
+    color: var(--lila-950);
+  }
+}
+
+.hidden-logo {
+  display: none;
+}
+
+.hidden-socials {
+  display: none;
+}
