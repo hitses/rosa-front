@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 82px;
+  li {
+    a {
+      cursor: default;
+    }
+  }
+}
