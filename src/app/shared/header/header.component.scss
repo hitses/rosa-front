@@ -1,0 +1,16 @@
+header {
+  position: sticky;
+  top: -205px;
+  max-width: 1280px;
+  margin: 0 auto;
+  app-navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  app-socials {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
